@@ -1,0 +1,9 @@
+body{
+  background: url("gambar/regis.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
