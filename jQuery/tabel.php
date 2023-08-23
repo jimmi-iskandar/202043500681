@@ -28,7 +28,7 @@ $tabelfilm = query($query);
               <div class="card-body">
                 <h5 class="card-title"><?=$tfilm['judul'];?></h5>
                 <p class="card-text" style="font-size: 10px"><?= $tfilm['spoiler'];?></p>
-                <a href="#" class="btn btn-dark">Go somewhere</a>
+                <a href="https://wa.me/628156805304?text=Halo%20saya%20ingin%20Memesan%20Film%20<?=$tfilm['judul'];?>%20Harga%20Rp%20:%20<?= $tfilm['harga'];?>" target="_blank" class="btn btn-dark">Checkout</a>
               </div>
           </div>
       <?php endforeach ?>
